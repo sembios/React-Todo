@@ -4,6 +4,19 @@
     list-style: none;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
+    background: cornflowerblue;
+}
+
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    margin: 5px 0 5px;
+    display: flex;
+    justify-content: center;
 }

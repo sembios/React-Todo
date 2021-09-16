@@ -1,0 +1,30 @@
+.mainModal {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.ntModal {
+    background: whitesmoke;
+    margin: 10px auto;
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    // bottom: 5;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    
+        
+    }
+}

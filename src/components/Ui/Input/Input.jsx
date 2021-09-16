@@ -1,10 +1,11 @@
 import React from 'react'
 import style from './Input.module.scss'
-export default function Input({changeMainInput}) {
+export default function Input({onChange, value}) {
     return (
         <input
         className={style.inp}
-        onChange={e => changeMainInput(e.target.value)}
+        onChange={onChange}
+        value={value}
         />
     )
 }

@@ -1,6 +1,17 @@
 .list {
-    background: aqua;
+    // background: aqua;
     text-align: center;
     margin-top: 30px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5px;
+    }
 }
